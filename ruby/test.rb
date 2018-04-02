@@ -78,3 +78,7 @@ end
 (0..5).each do |i|
 	puts "#{i}"
 end
+
+for i in 1...5
+	retry if 1 > 2 # hmm
+end
