@@ -60,3 +60,21 @@ when 3 .. 6
 else
 	puts "okae"
 end
+
+# loops
+while 1 > 2 do
+	puts "roflcopter"
+end
+
+until 1 < 2 do
+	puts "poggers"
+end
+
+for i in 1..5
+	puts "#{i}"
+end
+
+# something new here
+(0..5).each do |i|
+	puts "#{i}"
+end
