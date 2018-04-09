@@ -9,4 +9,12 @@ fn main() {
     };
 
     println!("The value of y is: {}", y);
+    println!("{}", test())
 }
+
+fn test() -> String {
+    let t: String = "test";
+    return t; /* won't work :/ */
+}
+
+

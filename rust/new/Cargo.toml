@@ -1,0 +1,6 @@
+[package]
+name = "new"
+version = "0.1.0"
+authors = ["Anirudh <icyph0x@protonmail.com>"]
+
+[dependencies]
