@@ -13,8 +13,8 @@ fn main() {
 }
 
 fn test() -> String {
-    let t: String = "test";
-    return t; /* won't work :/ */
+   let t = String::from("test");
+   t
 }
 
 
