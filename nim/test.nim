@@ -1,4 +1,6 @@
 from strutils import parseInt
+import system
+
 echo "What's your name? "
 const 
   x = 1
@@ -24,3 +26,22 @@ var name = readLine(stdin)
 while name == "":
   echo "Your name is empty"
   name = readLine(stdin)
+
+for i in countup(1, 20):
+  echo i
+
+for index, item in ["a", "b"].pairs:
+  echo item, " at index ", index
+
+block:
+  echo "this is a block"
+
+block namedblock:
+  echo "this is a named blok"
+
+when system.hostOS == "windows":
+  echo "spotted teh winfag"
+elif system.hostOS == "linux":
+  echo "aaah! the neckbeard"
+else:
+  echo "t. soyboy"
