@@ -1,0 +1,8 @@
+{"compile":[
+],
+"link":[
+"/home/icyphox/code/asdf/nim/nimcache/test.o",
+"/home/icyphox/code/asdf/nim/nimcache/stdlib_system.o"
+],
+"linkcmd": "gcc   -o /home/icyphox/code/asdf/nim/test  /home/icyphox/code/asdf/nim/nimcache/test.o /home/icyphox/code/asdf/nim/nimcache/stdlib_system.o    -ldl"
+}
