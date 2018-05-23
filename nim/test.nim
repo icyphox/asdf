@@ -18,3 +18,9 @@ try:
   else: discard
 except ValueError:
   echo "enter a num"
+
+echo "What's your name"
+var name = readLine(stdin)
+while name == "":
+  echo "Your name is empty"
+  name = readLine(stdin)
