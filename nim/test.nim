@@ -1,3 +1,4 @@
+from strutils import parseInt
 echo "What's your name? "
 const 
   x = 1
@@ -9,12 +10,11 @@ if z == 10:
   echo "nyet"
 else:
   echo "OmegaLUL"
-
-let name = readLine(stdin)
-case name
-of "":
-  echo "don't have a name, sad!"
-of "lel":
-  echo "lol"
-else:
-  echo "KRAPpa"
+try:
+  let num = parseInt(readLine(stdin))
+  case num
+  of 0..2, 4..7: echo "hip"
+  of 3, 8: echo "not hip"
+  else: discard
+except ValueError:
+  echo "enter a num"
