@@ -1,0 +1,3 @@
+import rdstdin
+
+discard readLineFromStdin("> ")
