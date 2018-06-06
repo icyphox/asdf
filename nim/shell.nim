@@ -3,4 +3,4 @@
 import osproc
 
 var p = execProcess("nim c -r shell.nim")
-echo p
+echo 
