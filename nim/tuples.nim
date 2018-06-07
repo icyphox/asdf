@@ -1,2 +1,5 @@
 var kek: tuple[file: string, path: string]
-kek =
+kek[0] = readLine(stdin)
+kek[1] = readLine(stdin)
+
+echo kek
