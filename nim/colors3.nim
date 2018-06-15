@@ -1,9 +1,10 @@
 import terminal
+import typetraits
 
-stdout.setForegroundColor(fgRed)
-stdout.write("I'm in red! ")
-stdout.setForegroundColor(fgGreen)
-stdout.write("But I'm in green!")
+setForegroundColor(fgRed)
+echo "I'm in red! "
+setForegroundColor(fgGreen)
+echo "But I'm in green!"
 stdout.resetAttributes()
 stdout.write("\n")
 echo "Look, I'm not colored!"
@@ -12,3 +13,4 @@ setForegroundColor(fgBlue)
 echo "blue"
 setForegroundColor(fgGreen)
 echo "green"
+echo stdout.type.name
