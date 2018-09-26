@@ -1,14 +1,12 @@
-from requests_html import HTML
 import sys
 from io import StringIO
 import contextlib
 import bs4
 
 doc = open('test.html').read()
-soup = bs4.BeautifulSoup(doc, "html.parser")
+soup = bs4.BeautifulSoup(doc, 'lxml')
 
-html = HTML(html=doc)
-py = html.find('py') 
+py = soup.find_all(id="#py")
 
 @contextlib.contextmanager
 def stdoutIO(stdout=None):
@@ -19,17 +17,19 @@ def stdoutIO(stdout=None):
     yield stdout
     sys.stdout = old
 
+out = []
+
 for tag in py:
     with stdoutIO() as s:
         try:
             exec(tag.text)
         except:
-            print("uh your code is borked")
+            print('lmao that did not work')
+    out.append(s.getvalue())
 
-out = s.getvalue()
-
-py_tag = soup.py
-py_tag.string.replace_with(out)
+for o,p in zip(out, py):
+    p.string.replace_with(o)
 
 with open('test.html', 'w') as f:
     f.write(str(soup))
+
