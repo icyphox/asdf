@@ -31,4 +31,5 @@ out = s.getvalue()
 py_tag = soup.py
 py_tag.string.replace_with(out)
 
-print(py_tag.string)
+with open('test.html', 'w') as f:
+    f.write(str(soup))
