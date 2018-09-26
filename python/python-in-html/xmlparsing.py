@@ -21,10 +21,7 @@ out = []
 
 for tag in py:
     with stdoutIO() as s:
-        try:
-            exec(tag.text)
-        except:
-            print('lmao that did not work')
+        exec(tag.text)
     out.append(s.getvalue())
 
 for o,p in zip(out, py):
