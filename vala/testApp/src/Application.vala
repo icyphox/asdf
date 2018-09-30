@@ -8,17 +8,16 @@ public class MyApp : Gtk.Application {
     }
 
     protected override void activate () {
-        var button_hello = new Gtk.Button.with_label ("Click me!");
-        button_hello.margin = 12;
-        button_hello.clicked.connect (() => {
-            button_hello.label = "Haha! Got you to click me :^)";
-            button_hello.sensitive = false;  
-        });
+		var grid = new Gtk.Grid ();
+		grid.orientation = Gtk.Orientation.VERTICAL;
+		grid.add (new Gtk.Label ("Label 1"));
+		grid.add (new Gtk.Label ("Label 2"));
+
         var main_window = new Gtk.ApplicationWindow (this);
         main_window.default_height = 300;
         main_window.default_width = 300;
         main_window.title = "Hello World";
-        main_window.add (button_hello);
+		main_window.add (grid);
         main_window.show_all ();
     }
 
