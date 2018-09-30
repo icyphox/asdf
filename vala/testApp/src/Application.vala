@@ -10,8 +10,13 @@ public class MyApp : Gtk.Application {
     protected override void activate () {
 		var grid = new Gtk.Grid ();
 		grid.orientation = Gtk.Orientation.VERTICAL;
-		grid.add (new Gtk.Label ("Label 1"));
-		grid.add (new Gtk.Label ("Label 2"));
+		grid.row_spacing = 6;
+
+		var button = new Gtk.Button.with_label ("Click me!");
+		var label  = new Gtk.Label (null);
+
+		grid.add (button);
+		grid.add (label);
 
         var main_window = new Gtk.ApplicationWindow (this);
         main_window.default_height = 300;
@@ -19,6 +24,11 @@ public class MyApp : Gtk.Application {
         main_window.title = "Hello World";
 		main_window.add (grid);
         main_window.show_all ();
+
+		button.clicked.connect (() => {
+			label.label = "Hello World!";
+			button.sensitive = false;
+		});
     }
 
     public static int main (string[] args) {
