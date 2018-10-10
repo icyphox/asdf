@@ -59,9 +59,9 @@ void Book::checkAvail(){
 		}
 	}
 	if(found)
-		cout << "Book exists!";
+		cout << "Book exists!" << endl;
 	else
-		cout << "Book not found :/";
+		cout << "Book not found :/" << endl;
 }
 
 void Book::modifyRecord(){
