@@ -58,12 +58,10 @@ void Book::checkAvail(){
 			break;
 		}
 	}
-
 	if(found)
 		cout << "Book exists!";
 	else
 		cout << "Book not found :/";
-
 }
 
 void Book::modifyRecord(){
@@ -89,6 +87,7 @@ void Book::modifyRecord(){
 			exit(0);
 		}
 	}
+
 	out.seekp(0, ios::cur);
 	cout << "Enter the new name: ";
 	cin.getline(this->name, 100);
@@ -96,8 +95,7 @@ void Book::modifyRecord(){
 	cin.getline(this->author, 100);
 	cout << "Enter the new copies: ";
 	cin >> this->copies;
-	out.seekp(pos - sizeof(Book));
-	cout << "Read: " << this->name << " | " << this->author << " | " << this->copies;
+	out.seekp(pos);
 	out.write(reinterpret_cast<char *>(this), sizeof(Book));
 }
 
@@ -134,6 +132,7 @@ int main() {
 		cout << endl;
 		cout << "Choose an option: ";
 		cin >> choice; 
+		cout << endl;
 	
 		switch(choice) {
 			case 1:
