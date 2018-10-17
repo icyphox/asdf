@@ -1,4 +1,4 @@
 # asdf
 > scrapped ideas and garbage code
 
-there's nothing to see here, move on.
+I use this as my dumping ground/test bed. There's nothing worthwhile here, trust me.
