@@ -17,3 +17,5 @@ $ alarm -l
 $ alarm -d 1
 REMOVED: 1730 - everyday
 ```
+### existing stuff
+`at(1)` is something like this, i guess
