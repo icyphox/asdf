@@ -34,3 +34,8 @@ if system is empty, server is idle. service can be deterministic or probabilstic
 2. multiple stage
 
 
+# queuing models
+- probabilistic: when there is uncertainity in the arrival rate and the service rate
+- deterministic: both arrival and service rates are knwon
+- mixed: either arrival or service is known
+
