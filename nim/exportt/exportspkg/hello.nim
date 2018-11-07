@@ -1,0 +1,2 @@
+
+proc hello() = echo "hello"
