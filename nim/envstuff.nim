@@ -1,4 +1,4 @@
 import os
 
-echo existsEnv("HOME")
-echo getEnv("HOME")
+echo getEnv("?")
+echo execShellCmd("echo $?")
