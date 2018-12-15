@@ -5,6 +5,10 @@
 const functions = require('firebase-functions');
 const {WebhookClient} = require('dialogflow-fulfillment');
 const {Card, Suggestion} = require('dialogflow-fulfillment');
+
+// initialize DB connection
+const admin = require('firebase-admin');
+admin.initializeApp()
  
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
  
