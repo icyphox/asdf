@@ -6115,4 +6115,4 @@ var options = {
 var fuse = new Fuse(cities, options);
 var result = fuse.search("chenni");
 
-console.log(result[0]);
+console.log(result[0]["name"]);
