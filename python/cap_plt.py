@@ -10,7 +10,7 @@ def process_file(filename):
         addr = code['sh_addr']
         print('Entry Point:', hex(elffile.header['e_entry']))
         md = Cs(CS_ARCH_X86, CS_MODE_64)
-        for i in md.disasm(opcodes, addr):
+        for i in md.disasm(opcodes, 0x520):
             print("0x%x:\t%s\t%s" %(i.address, i.mnemonic, i.op_str))
 
 if __name__ == '__main__':
