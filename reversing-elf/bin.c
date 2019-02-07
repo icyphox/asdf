@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-	char pw[9];
+	char *pw = malloc(10);
 	pw[0] = 'a';
 	for(int i = 1; i <= 8; i++){
 		pw[i] = pw[i - 1] + 1;

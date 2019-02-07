@@ -1,0 +1,4 @@
+- the first `call` instr is a qword ptr - *pw
+0x6ca + 0x200916 = 0x200fe0 which is in 
+- lea rdi - [0x1751 + 0x200939]
+- 
