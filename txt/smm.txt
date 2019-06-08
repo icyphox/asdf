@@ -1,0 +1,16 @@
+what is smm:
+- smm helps orgs prioritize their security enhancements
+- collab b/w business and tech
+
+security maturity vs security:
+- effectiveness, since not all systems req same level of protection
+- it's considered "mature" if they are effective in addressing these goals
+- security maturity is confidence that eerything meets reqs
+
+reqs:
+- real world applicability
+- accomodation of diff perspectives
+- appropriate security guidance
+- adaptiblity
+- extensibility
+

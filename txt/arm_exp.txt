@@ -1,0 +1,6 @@
+- r0, r4 + 6     0x76e92084
+- return of vuln 0x00010494
+- pop in seed48  0x76e92088
+- binsh          0x76f80944
+- binsh - 6      0x76f8093e
+- system         0x76e9a154
