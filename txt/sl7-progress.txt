@@ -1,0 +1,31 @@
+IoT Security Internship — Anirudh Oppiliappan
+=============================================
+
+3rd June 2019 - 18th June 2019
+------------------------------
+
+- Started with the IoT Exploitation Handbook and video series.
+- Explored firmware reverse engineering
+    1. Reversed what we thought was the firmware for the iBall router
+    2. Performed static analysis on the binaries in the filesystem
+- Setup Raspberry Pi for practicing ARM RE and exploitation
+- Dived into ARM exploitation and reverse engineering
+    1. Learnt ARM assembly
+    2. Reversing basic programs
+    3. Stack based exploitation and ROP (wrote a blog post on this)
+    4. Heap exploitation
+- Studied the IoT Security Maturity Model (SMM)
+    * Made a presentation for the same
+- Began learning MIPS
+    1. Learnt MIPS assembly
+    2. Same exploitation techniques
+- Attempted to reverse engineer HCI Bluetooth packet log between my smartphone and smartwatch
+    1. Acheived extraction of some forensic data
+- Began writing MIPS/ARM based exploitation challenges to be hosted on SL7's GitHub
+
+18th June 2019
+-------------
+
+- Wrote a post for the SL7 blog, titled "ARM Exploitation Series #1 — Introduction to the ARM Architecture"
+- Explored the new Intel Galileo Gen 2 board
+- Continued with my MIPS exploitation research
