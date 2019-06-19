@@ -29,3 +29,11 @@ IoT Security Internship — Anirudh Oppiliappan
 - Wrote a post for the SL7 blog, titled "ARM Exploitation Series #1 — Introduction to the ARM Architecture"
 - Explored the new Intel Galileo Gen 2 board
 - Continued with my MIPS exploitation research
+
+19th June 2019
+--------------
+
+- Continued research in MIPS exploitation. Encountered unsolvable error,
+and hence put MIPS research on hold.
+- Returned to ARM exploitation. Solved and created CTF challenges to be hosted
+on SL7's GitHub.
