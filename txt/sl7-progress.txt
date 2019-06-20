@@ -37,3 +37,12 @@ IoT Security Internship — Anirudh Oppiliappan
 and hence put MIPS research on hold.
 - Returned to ARM exploitation. Solved and created CTF challenges to be hosted
 on SL7's GitHub.
+
+20th June 2019
+--------------
+
+- Put MIPS exploitation research on hold, until I find reliable hardware/software to emulate with
+- Worked on ARM exploitation for a while
+- Tried performing memory analysis of ESP8266, but Volatility doesn't support it
+- Started building esp-open-sdk for Xtensa toolchain. Used to build ELF files to boot in ESP8266.
+- Began analysis of TP-Link's Tether mobile app. Performed basic reverse engineering and analysis today.
