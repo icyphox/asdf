@@ -46,3 +46,14 @@ on SL7's GitHub.
 - Tried performing memory analysis of ESP8266, but Volatility doesn't support it
 - Started building esp-open-sdk for Xtensa toolchain. Used to build ELF files to boot in ESP8266.
 - Began analysis of TP-Link's Tether mobile app. Performed basic reverse engineering and analysis today.
+
+21st June 2019
+--------------
+
+- Began learning kernel exploitation
+- Got shell via UART on the iBall Baton router. Explored the commands.
+- Enumerated the router OS, which was eCos
+- But were unable to exploit anything due to lack of documentation 
+- Fuzzed the web UI, found some interesting "bugs", but nothing that could be
+weaponized
+
