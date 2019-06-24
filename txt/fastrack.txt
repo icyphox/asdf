@@ -1,0 +1,12 @@
+Fastrack Reflex
+---------------
+
+- hardcoded api keys in bj.class
+- api url at: prod.clove.khaapi.com
+- also found other subdomains: dev, pay, stage, qa
+- request needs the following headers:
+    * x-clove-api-key: 6143c4170da44dc79e930d455e6702cc
+    * x-clove-api-debug-token: hardcoded as "akshata"
+    * x-clove-api-version: 1
+- unable to determine what canonical path the request needs to be made to
+
