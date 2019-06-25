@@ -74,3 +74,27 @@ weaponized
     - unable to determine what canonical path the request needs to be made to
 - Wrote some Python scripts to disassemble ARM32 binaries. They can be found at https://github.com/securelayer7/arm-py32. 
 - Will try extending this into a full framework for IoT-related architectures
+
+25th June 2019
+--------------
+
+- Today's project was the new smartlock, called BlueFPL
+- Began with reverse engineering the OKLOK app. Following is the analysis report:
+
+    OKLOK
+    -----
+    
+    - com.oklok.y/app/app.class contains the API URL and (possibly) the key
+    - com.oklok.y/app/activity contains some interesting bt/password activities
+        * some hardcoded checks?
+    - com.oklok.y/utils/b.class appears to have some kind of cryptography algo
+    - com.oklok.y/utils/k.class has some hardcoded pins?
+    - found the OAuth2 token hardcoded, and the API endpoint for authentication
+
+- We then attempted parsing the HCI log of the BlueFPL lock
+- Managed to isolate the packets being sent from the phone to unlock the lock
+- Attempted a replay attack, which didn't work
+- Setup gattacker on a laptop and RaspberryPi
+    * tried to perform MITM
+    * managed to spoof the RPi's mac address to match the lock
+    * attempted a connection from the phone to the RPi, but this resulted in a crash in gattacker which we are unable to resolve

@@ -1,0 +1,8 @@
+oklok
+-----
+
+- com.oklok.y/app/app.class contains the api url and (possibly) the key
+- com.oklok.y/app/activity contains some interesting bt/password activities
+    * some hardcoded checks?
+- com.oklok.y/utils/b.class appears to have some kind of cryptography algo
+- com.oklok.y/utils/k.class has some hardcoded pins?
