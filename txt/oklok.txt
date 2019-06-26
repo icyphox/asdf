@@ -6,3 +6,24 @@ oklok
     * some hardcoded checks?
 - com.oklok.y/utils/b.class appears to have some kind of cryptography algo
 - com.oklok.y/utils/k.class has some hardcoded pins?
+
+- exploitation procedure:
+    * having the mac address of a lock, the following info can be obtained:
+        1. lock id
+        2. barcode
+        3. user name
+    * with the barcode, the userid can be obtained
+    * now, using the userid and lockid, the lock can be unbound from the owner
+    * then, we can use our own userid, name and the lock's mac address to bind ourselves to the lock
+    * we now have full control of the lock
+
+- this info can be extracted from just knowing userid:
+    * mac address
+    * userid
+    * lockid
+    * barcode
+    * username
+    * email
+    * lockkey
+    * isAdmin is 0 (idk what that is)
+

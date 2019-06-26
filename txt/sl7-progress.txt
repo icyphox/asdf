@@ -98,3 +98,33 @@ weaponized
     * tried to perform MITM
     * managed to spoof the RPi's mac address to match the lock
     * attempted a connection from the phone to the RPi, but this resulted in a crash in gattacker which we are unable to resolve
+
+26th June 2019
+--------------
+
+26th June 2019
+--------------
+
+Today, we achieved a complete compromise of the smartlock ordered from Amazon (FB50). A CVE ID has been
+requested, and the vendor has been notified.
+
+- exploitation procedure:
+    * having the mac address of a lock, the following info can be obtained:
+        1. lock id
+        2. barcode
+        3. user name
+    * with the barcode, the userid can be obtained
+    * now, using the userid and lockid, the lock can be unbound from the owner
+    * then, we can use our own userid, name and the lock's mac address to bind ourselves to the lock
+    * we now have full control of the lock
+
+- this info can be extracted from just knowing userid:
+    * mac address
+    * userid
+    * lockid
+    * barcode
+    * username
+    * email
+    * lockkey
+    * isAdmin is 0 (idk what that is)
+
