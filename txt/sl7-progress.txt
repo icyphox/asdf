@@ -102,9 +102,6 @@ weaponized
 26th June 2019
 --------------
 
-26th June 2019
---------------
-
 Today, we achieved a complete compromise of the smartlock ordered from Amazon (FB50). A CVE ID has been
 requested, and the vendor has been notified.
 
@@ -128,3 +125,8 @@ requested, and the vendor has been notified.
     * lockkey
     * isAdmin is 0 (idk what that is)
 
+27th June 2019
+--------------
+
+- Wrote a fully functional single script exploit for the smart lock, in Python
+- Filmed the Proof of Concept video which will be used for disclosure
