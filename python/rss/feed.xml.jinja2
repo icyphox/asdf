@@ -6,16 +6,11 @@
     <description>icyphox's blog</description>
 	<atom:link href="https://icyphox.sh/blog/feed.xml" rel="self" type="application/xml"/>
     <image>
+		<title>icyphox logo</title>
       <url>https://icyphox.sh/icyphox.png</url>
+	  <link>https://icyphox.sh/blog/</link>
     </image>
     <language>en-us</language>
 	<copyright>Creative Commons BY-NC-SA 4.0</copyright>
-	{% for post in posts%}
-	<item>
-		<title>{{ post.metadata['title'] }}</title>
-		<description>{{ post|safe }}</description>
-		<link></link>
-	</item>
-	{% endfor %}
     </channel>
 </rss>
