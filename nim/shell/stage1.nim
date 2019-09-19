@@ -19,7 +19,8 @@ while true:
   stdout.write("$ ")
   stdout.flushFile()
   try:
-    line = stdin.readLine.splitWhitespace.allocCStringArray
+    #line = stdin.readLine.splitWhitespace.allocCStringArray
+    line = @["xterm"].allocCStringArray
     pid = fork()
     if pid == 0:
       if line[0] == "\n":
