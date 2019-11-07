@@ -1,0 +1,50 @@
+    November 2019   
+Su Mo Tu We Th Fr Sa
+                1  2
+ 3  4  5  6  7  8  9
+10 11 12 13 14 15 16
+17 18 19 20 21 22 23
+24 25 26 27 28 29 30
+
+FN - Forenoon
+AN - Afternoon
+
+Exam schedule
+-------------
+
+Operating Systems       14th 
+Theory of Computation   15th
+DBMS                    20th
+EDC                     22nd
+Aptitude                23rd
+Network Security        25th
+EECS (AN)               26th
+Discrete Math (FN)      26th
+Text Mining             27th
+
+Study plan
+----------
+
+6th Nov, Wed: EDC 2 units               ]
+7th Nov, Thu: EDC 2 units, EECS 1 unit  ] 3 days for EDC & EECS. Cover as much as possible.
+8th Nov, Fri: EECS 2 units              ]
+9th Nov, Sat: Text Mining 3 units
+10th Nov, Sun: Text Mining 2 units, ToC 1 unit
+11th Nov, Mon: OS 2 units, ToC 1 unit
+12th Nov, Tue: OS 3 units
+13th Nov, Wed: Buffer for OS / ToC (Finish up whatever's left)
+14th Nov, Thu: OS in FN. Revise for ToC in the evening
+15th Nov, Fri: ToC in FN, relax
+16th Nov, Sat: Discrete Math 2-3 units
+17th Nov, Sun: Discrete Math 2-3 units
+18th Nov, Mon: DBMS 2-3 units
+19th Nov, Tue: DBMS 2-3 units
+20th Nov, Wed: DBMS exam in FN, relax
+21st Nov, Thu: More EDC
+22nd Nov, Fri: Revise in AN, EDC exam in FN
+23rd Nov, Sat: Aptitude exam. Revise NetSec
+24th Nov, Sun: Revise NetSec
+25th Nov, Mon: NetSec exam in FN, revise EECS in the evening
+26th Nov, Tue: FN Discrete Math, AN EECS. Revise Text Mining.
+27th Nov, Wed: Text Mining in FN
+
