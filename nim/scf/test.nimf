@@ -1,0 +1,8 @@
+#? stdtmpl(subsChar = '$', metachar = '#')
+#proc generateHTML(name, age: string): string =
+#  result = ""
+<html>
+    <body>
+    $name: $age
+    </body>
+</html>
