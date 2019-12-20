@@ -1,0 +1,266 @@
+[
+	{
+		"name": "dungeon of the undead (by inexistence)",
+		"weak_monsters": [
+			"zombies",
+			"skeletons",
+			"ghosts"
+		],
+		"normal_monsters": [
+			"ghouls",
+			"lichs",
+			"mummies",
+			"shadows",
+			"vampires"
+		],
+		"lore_intro": [
+			"you approach the entrance of the dungeon of the undead, and venture into the darkness without a clue of what lies within. your party stays close together.",
+			"you start killing your way through, chopping off zombies, kicking some ghouls and stabbing vampires, until your party realizes that you are deep inside of the dungeon and there is no sign of sunlight."
+		],
+		"lore_boss": [
+			"you find a deadly, tall humanoid creature, with very deep, dark enchanting eyes. its lower body trails off into indistinct but dense-looking vapour",
+			"it welcomes your party, claiming to be the undead creature of marshes and swamps. it tells all of you that it will drain every last drop of blood in every living thing that comes near it",
+			"your party decides to be brave and confront this being. it responds by laughing at all of you and summoning an army of undead: ghouls, zombies, vampires, phantoms, spectral riders, mummys and shadows surround your party."
+		],
+		"lore_fail": [
+			"Crimson Death laughs at your failed attempt of taking over his domain, as his enormous army of undead monsters fades away...",
+			"your party passes away and thanks to the mercy of the being you appear at the entrance of the dungeon. an omnious whisper is heard: \"next time i wont let you free\""
+		],
+		"lore_win": [
+			"you manage to defeat Crimson Death. he says that it will be back with more powers and the desire to crush your souls. its undead army backs off with respect.",
+			"your party escapes the dungeon safely and each little guy returns to their adventure, not without a firm celebration of victory"
+		],
+		"boss": {
+			"name": "Crimson Death",
+			"parts": ["head", "tail", "torso", "arms", "eyes"]
+		}
+	},
+	{
+		"name": "tower of the mad sorcerer (by the-duck)",
+		"weak_monsters": [
+			"giant rats",
+			"animated sets of armor",
+			"failed experiments"
+		],
+		"normal_monsters": [
+			"wizard apprentices",
+			"giant snakes",
+			"thieves",
+			"pet dragons",
+			"retards"
+		],
+		"lore_intro": [
+			"it's a stormy night and the thunder seems to be amplified. up ahead you see a tall tower with the top window lit, shelter. you decide to venture in.",
+			"you quickly realize that this is no ordinary tower, it must belong to a powerful wizard of some kind. you explore further dodging traps, disabling spells and fighting its inhabitants"
+		],
+		"lore_boss": [
+			"at the top of the tower you discover a small chamber dimly lit with candles and sitting at a desk is an old man in a blue robe mixing some potions.",
+			"it turns to you, shourting 'WHO DARES ENTER MY ABODE!!' and a flash of lightning slammes out of his fingertips, extinguishing the flames.",
+			"in the dark, you gather your strength and begin swinging wildly at the horrible sorcerer trying to catch him in the juggular all the while he conjures creatures to help him defeat you"
+		],
+		"lore_fail": [
+			"realizing your strength he summons a blinding light and suddenly you are back in town. wizard, nor tower in sight.",
+			"sleeping at the inn you can only guess as to what horrors the wizard is cooking up"
+		],
+		"lore_win": [
+			"you have struck down the wizard, and as he draws his last breath he reaches into his pocket, pulling out a number of herbs and whispering one final spell.",
+			"a hole opens up in the ground and swallows the wizard, you can tell he will return with more power. you take shelter in his quarters for the night and split the treasure and part ways the next morning"
+		],
+		"boss": {
+			"name": "Fennic the Wizard",
+			"parts": ["head", "neck", "torso", "arms", "eyes", "legs"]
+		}
+	},
+	{
+		"name": "wolowolo's house (by varzeki)",
+		"weak_monsters": [
+			"red wololos",
+			"blue wololos",
+			"catapults throwing a cow for no apparent reason"
+		],
+		"normal_monsters": [
+			"discarded effay items",
+			"kitters",
+			"expired irc bans",
+			"broken caps lock keys",
+			"red buttons that say spam in large reassuring text"
+		],
+		"lore_intro": [
+			"you approach the entrance of wolowolo's house, and venture into the darkness without a clue of what lies within. your party stays close together.",
+			"you start wading your way through, chopping off akicks, kicking some defeated channel owners out of the way and stabbing disgruntled halfops, until your party realizes that you are deep inside of the bedroom and there is no sign of sunlight."
+		],
+		"lore_boss": [
+			"you find an underage boy stroking an unhappy looking cat, sitting on a chair in a room filled with cp, faintly lit by a computer screen",
+			"it welcomes your party, claiming to be the master of memes and allcaps. it tells all of you that it will drain every last drop of patience in every living thing that comes near it",
+			"your party decides to be brave and confront this being. it responds by laughing at all of you and summoning an army of spam: memes, selfies, quotes, #ree, mass hilights and caps lock surround your party."
+		],
+		"lore_fail": [
+			"WOLOWOLO laughs at your failed attempt of taking over his domain, as his enormous army of low quality banter fades away...",
+			"your party passes away and thanks to the mercy of the being you appear at the entrance of the house. an omnious whisper is heard: \"next time ill spam bot commands\""
+		],
+		"lore_win": [
+			"you manage to defeat WOLOWOLO. he says that it will be back with more spam and the desire to crush your chanstat privileges. his presence in the channel fades away as mode +b is set.",
+			"your party escapes the house safely and each irc participant returns to their on-topic discussion, not without a firm celebration of victory"
+		],
+		"boss": {
+			"name": "WOLOWOLO",
+			"parts": ["legs", "head", "torso", "arms", "eyes", "caps lock button", "ctrl+v", "ctrl+c", "computer", "underage waifu pillow", "cum rag"]
+		}
+	},
+	{
+		"name": "diary of katrina (by owo)",
+		"weak_monsters": [
+			"school bullies",
+			"mean girls",
+			"cruel teachers"
+		],
+		"normal_monsters": [
+			"creepy strangers",
+			"perverted uncles",
+			"evil stepmothers",
+			"twisted doctors",
+			"unspeakable memories"
+		],
+		"lore_intro": [
+			"your adventures have lead you through a pleasant sun-lit valley, and your group stops at an old cottage in hopes of gathering water from the nearby well. having refreshed yourselves, you decide to explore the dwelling for forgotten treasure.",
+			"you are disappointed to find nothing but cobwebs in the cottage. as you turn to leave, one of your party stumbles over an object on the doorstep, and dusts it off to reveal a small leather book. it appears to be a girl's diary. intrigued, you all crowd around, and as the first page is turned, your vision goes black. suddenly nightmares swarm around you..."
+		],
+		"lore_boss": [
+			"you slowly regain your sight as you strike down the dark phantoms. as you collect your wits, you are aware of a previously unnoticed presence in the room. a young girl with dark hair and pale features stands before you, watching you closely.",
+			"before you can speak, the child opens her mouth, and you seem to hear her words spoken in your head. \"you show bravery against mere phantoms of memories, but it was i who lived through them first. i who suffered. and where were you then to save me?\"",
+			"with a blood-chilling shriek, the girl launches herself at your group. you catch a fearful glimpse of her sharp teeth, livid eyes and clawing fingernails as once again nightmares swarm around you."
+		],
+		"lore_fail": [
+			"Katrina screams and cries maniacally as you battle vainly to keep the nightmares away, and you realize your group has lost all hope of victory. you desperately try to fight your way to the door, but your energy is gone and you collapse into dark unconsciousness.",
+			"your party wakes up at the edge of the valley, with the cottage still visible in the distance. as you quickly turn to leave, you hear a voice once more in your mind... \"leave me alone... i was always alone...\""
+		],
+		"lore_win": [
+			"you finally destroy Kristina's nightmares, and she falls to her knees on the floor. instead of angry, she seems relieved. as she slowly lifts her head to look at you, her image fades before your eyes, and you hear again her voice in your mind... \"thank you.\"",
+			"as your party leaves the cottage, it crumbles and collapses behind you. your party escapes the valley safely and each little guy returns to their adventure, not without a firm celebration of victory."
+		],
+		"boss": {
+			"name": "Katrina",
+			"parts": ["diary", "fangs", "claws", "memories", "cottage"]
+		}
+	},
+	{
+		"name": "golem-builders in the kingdom",
+		"weak_monsters": [
+			"clay golems",
+			"small golems",
+			"small statues"
+		],
+		"normal_monsters": [
+			"flesh golems",
+			"stone golems",
+			"iron golems",
+			"brass golems",
+			"ice golems",
+			"fire golems"
+		],
+		"lore_intro": [
+			"rumors have gotten to you, claims saying that the king received a threat from the golem-builders of the kingdom: submit to their demands or they will unleash chaos upon the kingdom. you decide to investigate these words, adventuring deeper into the kingdom where the high level magic users reside.",
+			"you feel the magic overflowing through the air, until you reach a place full of golems awaiting for something to attack with their unthinking bodies. you start defending yourselves in hopes that the spellcasters decide to show up."
+		],
+		"lore_boss": [
+			"just as you were getting bored of the army of magical constructs attacking you, a group of powerful magicians show up from nowhere, warning you of their great army and magic power.",
+			"before you can respond, the spellcasters reveal their colossus, and the choice to terminate this army becomes clear."
+		],
+		"lore_fail": [
+			"the colossus, a massive golem controlled by the powerful spellcasters, takes a final blow dealing a critical hit to your group of little guys. with almost no energy left, you manage to barely escape, leaving all loot and a powerful army behind.",
+			"standing at a safe distance you can only think of the horrible fate this army will bring into the kingdom."
+		],
+		"lore_win": [
+			"the massive golem, hellfire colossus, is defeated and returns to being a pile of inert material. the magic users behind the army realize that they are too weak, and after casting a spell they are gone. your party looks around, and the few remaining golems stand still animated, but they are calm and neutral.",
+			"the threat is gone, and the kingdom is now safe thanks to your party. a mess of inert materials lie on the floor, and you quietly leave as to not have to clean up the disaster."
+		],
+		"boss": {
+			"name": "hellfire colossus",
+			"parts": [ "spellcaster", "obsidian minion", "hellfire minion", "body", "head" ]
+		}
+	},
+	{
+		"name": "Lithuania (by Kali_)",
+		"weak_monsters": [
+			"stray kots",
+			"child gopniks",
+			"old cancer ridden women",
+			"annoying bus drivers"
+		],
+		"normal_monsters": [
+			"gopniks",
+			"corrupt politicians",
+			"gentrified hipsters",
+			"stray bears",
+			"mutants from ukraine"
+		],
+		"lore_intro": [
+			"you approach Lithuania, a land known for it's hidden treasures, but now corrupt with old, yet still prevelant communism.",
+			"after miles upon miles of nuclear waste riddled forest, you find yourselves in the heart of Silainiai, a residential district known to be full of commieblocks and danger.",
+			"the surrounding area doesen't seem like much at first, but about ten minutes in you find yourselves surrounded by Lithuania's worst."
+		],
+		"lore_boss": [
+			"the party has arrived to search for loot. you all start digging holes in the communal parking and park areas, hoping to get something good, but suddenly a gigantic herd of gopniks approaches",
+			"it appears that we have forgotten the fact that it is 6PM, the time where everyone stops working and goes to the nearest bar to drink. these migrations are usual around here,",
+			"but gopnik herds are known to be very agressive to outsiders. the party braces itself."
+		],
+		"lore_fail": [
+			"the herd passes, seemingly unschathed, but the gang is heavily wounded. nobody has the power to even pick up the already dug up loot.",
+			"the party decides to escape to poland, a country known for it's hospitality and safety. most of the party vows to never visit Lithuania again.",
+			"upon leaving, lithuanian words of shame and ridicule can be heard from the surrounding commieblocks."
+
+		],
+		"lore_win": [
+			"the herd's core is heavily damaged, and it slowly starts to disperse. the party picks up on its task to retrieve loot from",
+			"the old days of the grand dutchy of Lithuania. you find your loot, divide it among the members, and everyone disperses to do whatever they would in Lithuania (probably nothing)"
+		],
+		"boss": {
+			"name": "herd",
+			"parts": ["tall gopniks", "adidas pants", "adidas shoes", "shitty manners", "overworked muscles", "sub-par IQ"]
+		}
+	},
+	{
+		"name": "homescreen (by icyphox)",
+		"weak_monsters": [
+			"weebs",
+			"8channers",
+			"racists",
+			"incels",
+			"coomers",
+			"bots"
+		],
+		"normal_monsters": [
+			"network operators",
+			"free software retards",
+			"ricers",
+			"linux noobs",
+			"winfags",
+			"r/unixporners"
+		],
+		"lore_intro": [
+			"you mooch off your friend's znc and connect to rizon. your client nearly crashes as you type /list.",
+			"scrolling through the endless anime and incel channels, you chance upon #homescreen -- the no. 1 channel according to ChanStat.",
+			"upon joining the channel, you are greeted with IRSSucks calling you a nigger, eskimo slapping you, and flippy spamming .raid."
+		],
+		"lore_boss": [
+			"amidst all the spam, you manage to say hi but nobody replies to you, because, well, they're busy spamming.",
+			"or so you think. but someone did in fact notice, and your simple hi was enough for them to develop a creepy obsession.",
+			"you get a dm from princesspita or pp and she says all kinds of creepy shit. she links you a song that she sang for you but it sounds god awful.",
+			"you cover your ears in pain."
+		],
+		"lore_fail": [
+			"being the kissless virgin you are, you eventually befriend the retarded princesspita in hopes of getting a gf.",
+			"you start watching her cams and listen to her shitty songs, while she doxxes you until she knows you better than your mom.",
+			"eventually, pp finds your house and murders you in your sleep."
+		],
+		"lore_win": [
+			"as princesspita attempts to doxx you, you counter-doxx her whilst feeding her with well crafted disinformation.",
+			"you notify the ops on #homescreen who take swift action and ban her ass from the channel forever, as you yell \"begone, thot!\".",
+			"you have become jaded to the sense of victory; another day, another thot destroyed."
+		],
+		"boss": {
+			"name": "princesspita",
+			"parts": ["cheap webcam", "smelly ears", "body"]
+		}
+    }
+]
